@@ -114,7 +114,7 @@
     </template>
 
     <!-- UDP Masks (RAW UDP, KCP, Hysteria, XHTTP H3) -->
-    <template v-if="inbound.protocol == Protocols.HYSTERIA || ['kcp', 'xhttp', 'masque'].includes(inbound.stream.network)">
+    <template v-if="inbound.protocol == Protocols.HYSTERIA || inbound.protocol == Protocols.WIREGUARD || ['kcp', 'xhttp', 'masque'].includes(inbound.stream.network)">
         <a-form-item label='{{ i18n "pages.inbounds.stream.finalmask.udpMasks" }}'>
             <a-button icon="plus" type="primary" size="small"
                 @click="inbound.stream.addUdpMask([Protocols.HYSTERIA, Protocols.MASQUE].includes(inbound.protocol) ? 'salamander' : 'mkcp-legacy')"></a-button>
