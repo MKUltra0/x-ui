@@ -1,17 +1,17 @@
 # X-UI
 **An Advanced Web Panel • Built on Xray Core**
 
-![](https://img.shields.io/github/v/release/alireza0/x-ui.svg)
+![](https://img.shields.io/github/v/release/MKUltra0/x-ui.svg)
 ![](https://img.shields.io/docker/pulls/alireza7/x-ui.svg)
-[![Go Report Card](https://goreportcard.com/badge/github.com/alireza0/x-ui)](https://goreportcard.com/report/github.com/alireza0/x-ui)
-[![Downloads](https://img.shields.io/github/downloads/alireza0/x-ui/total.svg)](https://img.shields.io/github/downloads/alireza0/x-ui/total.svg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/MKUltra0/x-ui)](https://goreportcard.com/report/github.com/MKUltra0/x-ui)
+[![Downloads](https://img.shields.io/github/downloads/MKUltra0/x-ui/total.svg)](https://img.shields.io/github/downloads/MKUltra0/x-ui/total.svg)
 [![License](https://img.shields.io/badge/license-GPL%20V3-blue.svg?longCache=true)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 > **Disclaimer:** This project is only for personal learning and communication, please do not use it for illegal purposes, please do not use it in a production environment
 
 **If you think this project is helpful to you, you may wish to give a**:star2: **or donate me a coffee:**
 
-**Official Donation Page:** [https://donate.alireza0.dev/](https://donate.alireza0.dev/)
+**Official Donation Page:** [https://donate.MKUltra0.dev/](https://donate.MKUltra0.dev/)
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/alireza7)
 <a href="https://nowpayments.io/donation/alireza7" target="_blank" rel="noreferrer noopener">
@@ -37,7 +37,7 @@
 ## Install & Upgrade to Latest Version
 
 ```sh
-bash <(curl -Ls https://raw.githubusercontent.com/alireza0/x-ui/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/MKUltra0/x-ui/master/install.sh)
 ```
 
 ### Non-interactive Install
@@ -54,7 +54,7 @@ On a fresh install, you can skip the questions and set the login info with envir
 
 ```sh
 XUI_NONINTERACTIVE=1 XUI_USERNAME=me XUI_PASSWORD=secret XUI_PANEL_PORT=2053 XUI_WEB_BASE_PATH=abc123 \
-bash <(curl -Ls https://raw.githubusercontent.com/alireza0/x-ui/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/MKUltra0/x-ui/master/install.sh)
 ```
 
 These values are used only when the panel still has the default `admin` login. An existing setup is not changed.
@@ -64,7 +64,7 @@ These values are used only when the panel still has the default `admin` login. A
 **Step 1:** To install an old version, use following installation command. e.g., version `1.8.0`:
 
 ```sh
-VERSION=1.8.0 && bash <(curl -Ls "https://raw.githubusercontent.com/alireza0/x-ui/$VERSION/install.sh") $VERSION
+VERSION=1.8.0 && bash <(curl -Ls "https://raw.githubusercontent.com/MKUltra0/x-ui/$VERSION/install.sh") $VERSION
 ```
 
 ## Manual Install & Upgrade
@@ -99,7 +99,7 @@ case "${ARCH}" in
   *) XUI_ARCH="amd64" ;;
 esac
 
-wget https://github.com/alireza0/x-ui/releases/latest/download/x-ui-linux-${XUI_ARCH}.tar.gz
+wget https://github.com/MKUltra0/x-ui/releases/latest/download/x-ui-linux-${XUI_ARCH}.tar.gz
 ```
 
 3. Once the compressed package is downloaded, execute the following commands to install or upgrade x-ui:
@@ -143,7 +143,7 @@ curl -fsSL https://get.docker.com | sh
 **Step 2:** Clone the Project Repository:
 
    ```sh
-   git clone https://github.com/alireza0/x-ui.git
+   git clone https://github.com/MKUltra0/x-ui.git
    cd x-ui
    ```
 
@@ -490,10 +490,10 @@ Save your changes and restart the Xray Service
 
 ## Star History
 
-<a href="https://www.star-history.com/?repos=alireza0%2Fx-ui&type=date&releases=&legend=bottom-right">
+<a href="https://www.star-history.com/?repos=MKUltra0%2Fx-ui&type=date&releases=&legend=bottom-right">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=alireza0/x-ui&type=date&theme=dark&legend=bottom-right" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=alireza0/x-ui&type=date&legend=bottom-right" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=alireza0/x-ui&type=date&legend=bottom-right" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MKUltra0/x-ui&type=date&theme=dark&legend=bottom-right" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=MKUltra0/x-ui&type=date&legend=bottom-right" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=MKUltra0/x-ui&type=date&legend=bottom-right" />
  </picture>
 </a>
