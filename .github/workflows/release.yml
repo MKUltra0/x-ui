@@ -5,23 +5,8 @@ on:
   release:
     types: [published]
   push:
-    branches:
-      - main
     tags:
       - "*.*.*"
-    paths:
-      - '.github/workflows/release.yml'
-      - '**.js'
-      - '**.css'
-      - '**.html'
-      - '**.sh'
-      - '**.go'
-      - '**.toml'
-      - '**.json'
-      - '**.woff2'
-      - 'go.mod'
-      - 'go.sum'
-      - 'x-ui.service'
 
 concurrency:
   group: release-${{ github.ref }}
